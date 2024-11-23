@@ -1,9 +1,52 @@
-TypeScript React AntDesign Demo
-=================================
+# TypeScript React Antd Card Demo
 
-```
-npm install
-npm start
+该演示展示了使用React和TypeScript实现的可自定义Ant Design Card组件。通过这个demo，你可以体验Card组件的各种样式选项和交互特性。
+
+## 功能特点
+
+- 切换卡片边框显示/隐藏
+- 控制静态阴影效果
+- 切换标题边框显示/隐藏
+- 启用/禁用悬停阴影效果
+- 实时样式变更的交互开关
+
+## 技术栈
+
+- React 18
+- TypeScript
+- Ant Design 5
+- Vite
+
+## 开始使用
+
+### 环境要求
+
+确保你的系统已安装 Node.js 和 pnpm。
+
+### 安装
+
+1. 克隆仓库
+2. 安装依赖：
+```bash
+pnpm install
 ```
 
-It will open page on browser automatically.
+### 运行演示
+
+启动开发服务器：
+```bash
+pnpm start
+```
+
+演示将在 `http://localhost:5173` 上运行
+
+## 使用说明
+
+演示提供了几个交互式开关来自定义Card的外观：
+
+- **边框**：切换卡片的外边框
+- **静态阴影**：为卡片添加永久阴影效果
+- **标题边框**：切换卡片标题和内容之间的分隔线
+- **悬停阴影**：启用鼠标悬停时的阴影效果（启用时会禁用静态阴影）
+
+你可以尝试不同的组合来查看它们如何影响卡片的外观。
